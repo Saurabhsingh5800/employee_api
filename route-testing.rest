@@ -1,0 +1,21 @@
+sign up url : localhost:8020/users/signup          use POST
+name : saur
+email :saur@gmail.com
+age :25
+department: civil
+password:1234
+
+sign in url : localhost:8020/users/signin        use POST
+pass through x-www-url-encoded
+email : "abc@gmail.com"
+password : 12345
+
+
+after sign in we get a jwt token - pass token in postman use BEARER 
+
+get detail of employee url:localhost:8020/users/employees      Use GET
+
+delete : localhost:8020/users/idof user           use DELETE
+
+update: localhost:8020/users/ide of the user/update                 use POST
+update data with x-www-url-encoded
